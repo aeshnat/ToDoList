@@ -35,24 +35,12 @@ function clicked() {
     checkBox.addEventListener("change",() => {
         if(checkBox.checked){
             inp.style.textDecoration="line-through";
+            inp.style.textDecorationColor= "red";
         }
         else{
             inp.style.textDecoration="none";
         }
     });
-    
-    // Delete Selected Task
-    // dltBtn.addEventListener("click",() => {
-    //     document.getElementById("tasks").removeChild(checkBox);
-    //     document.getElementById("tasks").removeChild(inp);
-    //     document.getElementById("tasks").removeChild(dltBtn);
-    //     document.getElementById("tasks").removeChild(lineBrk);
-    // })
-    
-    // document.getElementById("tasks").appendChild(checkBox);
-    // document.getElementById("tasks").appendChild(inp);
-    // document.getElementById("tasks").appendChild(dltBtn);
-    // document.getElementById("tasks").appendChild(lineBrk);
 
      // Delete Selected Task
     dltBtn.addEventListener("click",() => {
