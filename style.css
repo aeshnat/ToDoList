@@ -1,0 +1,77 @@
+body{
+    background-color: palevioletred;
+}
+
+/* Styling for TO-DO LIST header */
+.listHeader{
+    text-align: center;
+    background-color: white;
+    border: 10px solid white;
+    border-radius: 100rem; 
+    font-family: "Shadows Into Light Two","Papyrus","Courier New";
+    margin-left: 1em;
+    margin-right: 1em;
+
+}
+
+/* Styling for the 'Add a new task' button */
+.addTask{
+    font-family: "Sour Gummy","Courier New";
+    font-size: 1.35em;
+    background-color: rgb(251, 210, 217);
+    padding: 0.5em 2em 0.5em 2em;
+    border-radius: 100rem; 
+    margin-left: 1.5em;
+    margin-right: 1em;
+}
+
+/* Styling for the tasks section */
+.flex-container{
+    margin-top: 2em;
+    margin-bottom: 2em;
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em 0em 1em 0em;
+    margin-left: 1.8em;
+    margin-right: 1.8em;
+}
+
+.nDiv{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width:100%;
+    gap:1em;
+    margin-top: 0.5em;
+    background-color: pink;
+    border: 1em;
+    border-radius: 1em;
+}
+.taskbox{
+    margin-left: 2em;
+    width:1.5em;
+    height:auto;
+    flex-grow: 1;
+
+}
+
+.inputText{
+    font-family: monospace, Courier;
+    font-size: 1.5em; 
+    width: 50em;
+    margin: 0.3em;
+    border-radius: 0.5em;
+    background-color: greenyellow;
+    flex-grow: 8;
+}
+
+.dltButton{
+   font-size: 2em;
+   flex-grow: 1;
+   background-color: pink;
+   color: red;
+   font-weight: bold;
+   margin-right: 1em;
+   border-style: none;
+}
+
